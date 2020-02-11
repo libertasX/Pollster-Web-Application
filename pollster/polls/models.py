@@ -1,5 +1,7 @@
 from django.db import models
 
+# Datemodel erstellen.
+
 class Question(models.Model):
     questionText = models.CharField(max_length=200)
     pubDate = models.DateTimeField('date published')

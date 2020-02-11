@@ -44,12 +44,3 @@ $ python manage.py migrate
 # Admin erstellen
 $ python manage.py createsuperuser
 ```
-
-# Arbeiten mit der pipenv shell
-```Bash
-# Abfrage von Datensätzen
-$ Meldung.objects.all()
-$ umfrage = Meldung.objects.get(title="Umfrage zu Python")
-$ umfrage.kommentar_set.all()
-$ Kommentar.objects.filter(meldung__id = 6)
-```
