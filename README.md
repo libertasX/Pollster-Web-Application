@@ -44,3 +44,8 @@ $ python manage.py migrate
 # Admin erstellen
 $ python manage.py createsuperuser
 ```
+
+```Bash
+# Interaktive Python shell starten
+$ python manage.py shell
+```
